@@ -1,6 +1,6 @@
-================================================================================
+
                         C++ SYSTEM TELEMETRY MONITOR
-================================================================================
+
 
 Low-level system telemetry generator written in C++, interacting directly 
 with the Linux kernel virtual filesystems (/proc and /sys) to detect hardware 
