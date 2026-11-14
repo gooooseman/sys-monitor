@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-11-12 16:07:29",
+  "event": "OVERLOAD_TRIGGERED",
+  "cpu_usage_percent": 89.2857,
+  "ram_usage_percent": 27.5719,
+  "top_processes": [
+    {
+      "pid": 22877,
+      "name": "fossilize_repla",
+      "rss_mb": 698
+    },
+    {
+      "pid": 22876,
+      "name": "fossilize_repla",
+      "rss_mb": 685
+    },
+    {
+      "pid": 22836,
+      "name": "fossilize_repla",
+      "rss_mb": 681
+    },
+    {
+      "pid": 22880,
+      "name": "fossilize_repla",
+      "rss_mb": 681
+    },
+    {
+      "pid": 22837,
+      "name": "fossilize_repla",
+      "rss_mb": 672
+    },
+    {
+      "pid": 22831,
+      "name": "fossilize_repla",
+      "rss_mb": 672
+    },
+    {
+      "pid": 22879,
+      "name": "fossilize_repla",
+      "rss_mb": 672
+    },
+    {
+      "pid": 22864,
+      "name": "fossilize_repla",
+      "rss_mb": 672
+    },
+    {
+      "pid": 22874,
+      "name": "fossilize_repla",
+      "rss_mb": 672
+    },
+    {
+      "pid": 22798,
+      "name": "fossilize_repla",
+      "rss_mb": 672
+    }
+  ]
+}

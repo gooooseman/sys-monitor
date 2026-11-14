@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-11-13 14:38:03",
+  "event": "OVERLOAD_TRIGGERED",
+  "cpu_usage_percent": 17.8261,
+  "ram_usage_percent": 90.9121,
+  "top_processes": [
+    {
+      "pid": 86142,
+      "name": "python",
+      "rss_mb": 21318
+    },
+    {
+      "pid": 78624,
+      "name": "WebExtensions",
+      "rss_mb": 667
+    },
+    {
+      "pid": 78159,
+      "name": "firefox",
+      "rss_mb": 630
+    },
+    {
+      "pid": 2628,
+      "name": "plasmashell",
+      "rss_mb": 472
+    },
+    {
+      "pid": 2617,
+      "name": "kwin_wayland",
+      "rss_mb": 457
+    },
+    {
+      "pid": 4739,
+      "name": "steamwebhelper",
+      "rss_mb": 444
+    },
+    {
+      "pid": 81930,
+      "name": "code",
+      "rss_mb": 421
+    },
+    {
+      "pid": 4583,
+      "name": "steam",
+      "rss_mb": 421
+    },
+    {
+      "pid": 78718,
+      "name": "Isolated",
+      "rss_mb": 406
+    },
+    {
+      "pid": 3131,
+      "name": "baloo_file",
+      "rss_mb": 403
+    }
+  ]
+}

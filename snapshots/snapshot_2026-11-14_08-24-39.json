@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-11-14 08:24:39",
+  "event": "OVERLOAD_TRIGGERED",
+  "cpu_usage_percent": 99.3831,
+  "ram_usage_percent": 29.2394,
+  "top_processes": [
+    {
+      "pid": 10871,
+      "name": "Telegram",
+      "rss_mb": 1013
+    },
+    {
+      "pid": 2810,
+      "name": "firefox",
+      "rss_mb": 949
+    },
+    {
+      "pid": 3778,
+      "name": "WebExtensions",
+      "rss_mb": 828
+    },
+    {
+      "pid": 4019,
+      "name": "Isolated",
+      "rss_mb": 622
+    },
+    {
+      "pid": 17753,
+      "name": "Isolated",
+      "rss_mb": 574
+    },
+    {
+      "pid": 1967,
+      "name": "plasmashell",
+      "rss_mb": 541
+    },
+    {
+      "pid": 6787,
+      "name": "spotify",
+      "rss_mb": 477
+    },
+    {
+      "pid": 1950,
+      "name": "kwin_wayland",
+      "rss_mb": 427
+    },
+    {
+      "pid": 6904,
+      "name": "spotify",
+      "rss_mb": 414
+    },
+    {
+      "pid": 4504,
+      "name": "steamwebhelper",
+      "rss_mb": 388
+    }
+  ]
+}

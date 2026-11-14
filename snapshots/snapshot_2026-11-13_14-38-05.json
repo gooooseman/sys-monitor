@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-11-13 14:38:05",
+  "event": "OVERLOAD_TRIGGERED",
+  "cpu_usage_percent": 13.0923,
+  "ram_usage_percent": 95.6162,
+  "top_processes": [
+    {
+      "pid": 86142,
+      "name": "python",
+      "rss_mb": 22830
+    },
+    {
+      "pid": 78624,
+      "name": "WebExtensions",
+      "rss_mb": 661
+    },
+    {
+      "pid": 78159,
+      "name": "firefox",
+      "rss_mb": 527
+    },
+    {
+      "pid": 2628,
+      "name": "plasmashell",
+      "rss_mb": 448
+    },
+    {
+      "pid": 2617,
+      "name": "kwin_wayland",
+      "rss_mb": 438
+    },
+    {
+      "pid": 4739,
+      "name": "steamwebhelper",
+      "rss_mb": 426
+    },
+    {
+      "pid": 78718,
+      "name": "Isolated",
+      "rss_mb": 393
+    },
+    {
+      "pid": 82537,
+      "name": "code",
+      "rss_mb": 391
+    },
+    {
+      "pid": 4583,
+      "name": "steam",
+      "rss_mb": 365
+    },
+    {
+      "pid": 1740,
+      "name": "kube-apiserver",
+      "rss_mb": 362
+    }
+  ]
+}

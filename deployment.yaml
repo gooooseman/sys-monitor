@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sys-monitor
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sys-monitor
+  template:
+    metadata:
+      labels:
+        app: sys-monitor
+    spec:
+      hostPID: true
+      tolerations:
+      - key: "node-role.kubernetes.io/control-plane"
+        operator: "Exists"
+        effect: "NoSchedule"
+      - key: "node-role.kubernetes.io/master"
+        operator: "Exists"
+        effect: "NoSchedule"
+      containers:
+      - name: sys-monitor
+        image: sys-monitor:latest
+        imagePullPolicy: IfNotPresent
+        securityContext:
+          privileged: true
+        volumeMounts:
+        - mountPath: /app/snapshots
+          name: snapshots-vol
+      volumes:
+      - name: snapshots-vol
+        hostPath:
+          path: /home/legion/ssdm2/tests/sys-monitor/snapshots
+          type: DirectoryOrCreate

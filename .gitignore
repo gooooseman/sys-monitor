@@ -1,0 +1,19 @@
+# Сборка CMake
+build/
+bin/
+obj/
+*.o
+*.obj
+*.exe
+*.out
+
+# Идеи и редакторы
+.idea/
+.vscode/
+*.swp
+
+# Логи и временные файлы
+*.log
+*.tar
+*.zip
+*.gz

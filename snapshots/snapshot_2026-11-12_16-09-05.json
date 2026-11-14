@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-11-12 16:09:05",
+  "event": "OVERLOAD_TRIGGERED",
+  "cpu_usage_percent": 87.0748,
+  "ram_usage_percent": 20.0595,
+  "top_processes": [
+    {
+      "pid": 25536,
+      "name": "fossilize_repla",
+      "rss_mb": 684
+    },
+    {
+      "pid": 25492,
+      "name": "fossilize_repla",
+      "rss_mb": 672
+    },
+    {
+      "pid": 25471,
+      "name": "fossilize_repla",
+      "rss_mb": 672
+    },
+    {
+      "pid": 4759,
+      "name": "steamwebhelper",
+      "rss_mb": 619
+    },
+    {
+      "pid": 25725,
+      "name": "fossilize_repla",
+      "rss_mb": 528
+    },
+    {
+      "pid": 2866,
+      "name": "baloo_file",
+      "rss_mb": 516
+    },
+    {
+      "pid": 4611,
+      "name": "steam",
+      "rss_mb": 500
+    },
+    {
+      "pid": 2401,
+      "name": "plasmashell",
+      "rss_mb": 481
+    },
+    {
+      "pid": 25753,
+      "name": "fossilize_repla",
+      "rss_mb": 460
+    },
+    {
+      "pid": 25752,
+      "name": "fossilize_repla",
+      "rss_mb": 457
+    }
+  ]
+}
